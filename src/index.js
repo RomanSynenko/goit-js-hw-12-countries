@@ -10,5 +10,5 @@ const debouceInput = debounce(
         $resualtRef.innerHTML = '';
         searchCountry(country).then(createMarkup)
     },
-    300)
+    500)
 $inputRef.addEventListener('input', debouceInput)
